@@ -2,7 +2,7 @@
 {% extends 'base.html' %}
 
     {% block content %}
-    <h1>Lista de Películas disponibles</h1>
+    <h1>Lista de Oficios disponibles</h1>
     <ul>
         {% for movie in movies %}
             <a href="{% url 'movies:detail' movie.id %}"><li>{{ movie.title }}</li></a>

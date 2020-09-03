@@ -10,9 +10,15 @@
         <a href="{% url 'movies:list' %}"><li>Ver lista de películas</li></a>
         <a href="{% url 'movies:create' %}"><li>Registrar pelicula</li></a>
         <a href="{% url 'users:list' %}"><li>Lista de usuarios</li></a>
-
+        <a href="{% url 'users:create' %}"><li>Crear usuario</li></a>
+    </ul>
         {% block content %}
         {% endblock content %}
-    </ul>
+       
+
+    
 </body>
+
+
+
 </html>
